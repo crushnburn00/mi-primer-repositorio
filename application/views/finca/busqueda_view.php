@@ -13,7 +13,7 @@
 	<div class="form-group col-12 row2 tbus_div" >   
 
 	<?php
-		//ID DE finca
+		//ID DE finca esta modificacion es prueba de GIT
 
 		$data = array(	
 				'name'	=>	'txtidfinca' , 
