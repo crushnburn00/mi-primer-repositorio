@@ -1,0 +1,64 @@
+
+
+
+
+#row_login{
+	margin-top: 20vh;
+	box-shadow: 1px 1px 50px #000;
+	border-radius: 5px;
+	color: white;
+	padding: 20px;
+}
+
+
+#img_nombre_empresa{
+	margin-top: 1%;
+
+}
+
+#img_nombre_empresa img{
+	width: 500px;
+	margin: auto;
+}
+
+
+
+.input-group-text{
+	background-color: #868d93;
+	color: white;
+	border-radius:0px;
+}
+
+.input-group input{
+	color: #fff;
+	background-color:transparent; 
+	border: 1px solid gray;
+}
+
+.input-group input:focus{
+	color: #fff;
+	background-color:transparent; 
+	border: 1px solid #ffd400;
+	box-shadow: 1px 1px 10px #ffd400;
+}
+
+
+.btn-login{
+	background-color:#FFF1AF;
+ }
+
+.btn-login:hover{
+	background-color:#ffd400;
+ }
+
+.btn-login:focus{
+	background-color:#FFEA85;
+ }
+
+
+ @media (max-width: 1200px) {
+	#img_nombre_empresa img{
+		width: 400px;
+	}
+
+}

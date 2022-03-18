@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On 
+    ReWriteBase /
+    RewriteCond %{REQUEST_URI} ^system.*
+    RewriteRule ^(.*)$ /tracesysorganics/index.php?/$1 [L] 
+    RewriteCond %{REQUEST_URI} ^application.*
+    RewriteRule ^(.*)$ /tracesysorganics/index.php?/$1 [L] 
+
+    RewriteCond %{REQUEST_FILENAME} !-f 
+    RewriteCond %{REQUEST_FILENAME} !-d 
+    RewriteRule ^(.*)$ /tracesysorganics/index.php?/$1 [L] 
+</IfModule>
+<IfModule !mod_rewrite.c>
+    ErrorDocument 404 /tracesysorganics/index.php 
+</IfModule>
