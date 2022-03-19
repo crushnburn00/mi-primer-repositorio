@@ -14,6 +14,7 @@
 
 	<?php
 		//ID DE finca esta modificacion es prueba de GIT
+		//verificar esta linea en el GITHUB
 
 		$data = array(	
 				'name'	=>	'txtidfinca' , 
